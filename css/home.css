@@ -1,0 +1,26 @@
+body{
+	background: url('../asset/bg1.jpeg');
+	color: #fff;
+}
+h1{
+  color: #3333ff;
+  text-align: center;
+  font-family: spiky;
+  font-weight: normal;
+  margin: 2em auto 0px;
+}
+p{
+  text-align: center;
+  font-family: spiky;
+  color: black;
+  display: block;
+  margin: 15px auto;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 25px;
+}
+.img-responsive {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}

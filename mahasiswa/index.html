@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Informasi-Skripsi</title>
+	<link rel="stylesheet" href="https://unpkg.com/ace-css/css/ace.min.css">
+	<style>
+		/*Additional Style */
+
+		/* ######## START FOCUS CSS CODE HERE */
+		#sidenav {
+			max-height: 100vh;
+			height: 100vh;
+			max-width: 70vw;
+			min-width: 300px;
+			overflow-x: hidden;
+			overflow-y: auto;
+			transition: all .3s ease-in-out;
+			transform: translate(-150%, 0px);
+			-webkit-transform: translate(-150%, 0px);
+			/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+			-ms-transform: translate(-150%, 0px);
+		}
+
+		#sidenav.active {
+			transition: all .3s ease-in-out;
+			transform: translate(0%, 0px);
+			-webkit-transform: translate(0%, 0px);
+			-ms-transform: translate(0%, 0px);
+			box-shadow: 0 4px 6px rgba(0, 0, 0, .4);
+		}
+
+		/* ######## END FOCUS CSS CODE HERE */
+
+		.burger {
+			height: 16px
+		}
+		.burger span {
+			display: block;
+			width: 20px;
+			height: 2px;
+			border-radius: 3px;
+		}
+		.pointer {
+			cursor: pointer;
+		}
+		.close {
+			width: 23px;
+			height: 23px;
+		}
+		.cross {
+			height: 23px;
+			width: 2px;
+			border-radius: 3px;
+		}
+		.cross.left {
+			transform: rotate(45deg);
+		}
+		.cross.right {
+			transform: rotate(-45deg);
+		}
+		.align-middle {
+			vertical-align: middle
+		}
+
+	</style>
+  <!-- ini jumbotron-->
+  <script> type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- css -->
+      <link rel="stylesheet" href="assets/css/bootstrap.css">
+      <style media="screen">
+        body {
+background-image: url("../asset/bg.jpg");
+}
+    </style>
+</head>
+<body>
+	<header class="bg-blue px2 py1 m0 flex items-center white">
+		<div class="burger pointer flex flex-column justify-between mr2">
+			<span class="bg-white"></span>
+			<span class="bg-white"></span>
+			<span class="bg-white"></span>
+		</div>
+		<a class="white caps text-decoration-none h3 bold" href="index.html">MAHASISWA</a>
+		<nav class="ml-auto">
+			<ul class="list-reset m0 h5 caps">
+        <a href="login.html" class="btn btn-danger btn-lg">Logout</a>
+			</ul>
+		</nav>
+	</header>
+<!-- ######## START FOCUS SIDEBAR CODE HERE -->
+	<div id="sidenav" class="fixed z4 top-0 left-0 bg-white p2">
+		<div class="close flex items-center justify-center relative pointer mb2 right">
+			<div class="absolute cross bg-gray left"></div>
+			<div class="absolute cross bg-gray right"></div>
+		</div>
+
+		<div class="bg-white circle mb2 flex items-center justify-center white" style="width: 68px;height: 68px">
+<img src="../asset/logo-stmik.png" alt="" align="center">
+		</div>
+		<p class="m0 muted bold">STMIK DHARMAWACANA </p>
+
+		<hr>
+
+		<ul class="list-reset muted m0">
+      <a href="index.html" class="btn btn-primary btn-block">Informasi</a>
+			<li class="pointer mb3"> <br>
+    <a href="profil.html" class="btn btn-primary btn-block">Profil Mahasiswa</a>
+			</li>
+			<li class="pointer mb3">
+				<a href="judul.html" class="btn btn-primary btn-block">Ajukan Judul</a>
+			</li>
+			<li class="pointer mb0">
+				<a href="pembimbing.html" class="btn btn-primary btn-block">Daftar Pembimbing</a>
+			</li>
+		</ul>
+
+		<hr>
+	</div>
+<!-- ######## END FOCUS SIDEBAR CODE HERE -->
+  <!-- jumbotron-->
+  <div class="container">
+  		<div class="jumbotron">
+
+  			<h3>Informasi</h3>
+        <p>Syarat Pengajuan Judul Skripsi:
+
+  <p>1. Terdaftar sebagai mahasiswa aktif pada semester yang sedang berlangsung, dengan menunjukkan bukti berupa fotocopy pembayaran SPP;</p>
+  <p>2. Telah menyelesaikan minimal 100 sks dengan IPK minimal 2,0 dengan menunjukkan bukti berupa fotocopy transkrip nilai sementara;</p>
+  <p>3. Mengambil mata kuliah Skripsi pada semester yang sedang berlangsung, dengan menunjukkan bukti berupa fotocopy KRS/KPRS;</p>
+  <p>4. Mengambil logbook/Buku Bimbingan Skripsi di bagian Tata Usaha dan mengisinya;
+  <p>5. Mengambil formulir permohonan pembimbing skripsi di bagian Tata Usaha atau download form seperti yang  tertera di bawah (lihat contoh form);</p>
+  <p>6. Membuat Rancangan Penelitian yang terdiri dari Judul, Latar Belakang dan Perlakuan sesuai judul yang akan diambil.</p>
+  <p>7. Mengumpulkan Print Out Referensi sekurang-kurangnya 5 (lima) Judul Jurnal Nasional yang terkait dengan Judul skripsi yang diajukan.</p>
+
+
+  Semua persyaratan dikumpulkan di bagian Tata Usaha sesuai jadwal jam kerja (pukul 08.00 WIB s.d. 15.30 WIB).
+  		</div>
+
+  	</div>
+
+<!-- footer-->
+	<footer class="px2 py3 bg-silver navy center">
+		<p class="muted">Copyright ©2021 → <a class="text-decoration-none navy"
+				href="https://www.facebook.com/trisna.prawira.3/">Trisna Hadi.P. All rights reserved.</a></p>
+	</footer>
+
+	<!-- ######## START FOCUS JS CODE HERE -->
+	<script>
+		let burger = document.querySelector('.burger');
+		let close = document.querySelector('.close');
+		let sidenav = document.querySelector('#sidenav');
+
+		// Burger click function
+		burger.addEventListener('click', function () {
+			sidenav.classList.add('active');
+		});
+		// Close click function
+		close.addEventListener('click', function () {
+			sidenav.classList.remove('active');
+		});
+	</script>
+	<!-- ######## /END FOCUS JS CODE HERE -->
+
+</body>
+</html>
